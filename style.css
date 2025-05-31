@@ -1,0 +1,103 @@
+section{
+   background-image: url(img/moda\ a.jpeg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   text-align: center;
+   height: 500px;
+   font-size: 70px;
+   color: rgb(245, 245, 245);
+   -webkit-text-stroke: 1px rgb(19, 18, 18);
+}
+
+.titulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(14, 14, 14);
+    -webkit-text-stroke: 1px rgb(245, 242, 242);
+}
+
+h2{
+    font-family: fantasy;
+    font-size: 60px;
+    background-color: black;
+    color: aliceblue;
+   -webkit-text-stroke: 1px rgb(19, 18, 18);
+}
+
+
+
+body{
+    align-items: center;
+    background-image: url(img/f1.jpg);
+}
+
+
+p{
+    font-family: cursive;
+    font-size: 40px;
+    align-items: center;
+}
+
+footer{
+    margin-top: auto;
+    background-color: #dd5ce2;
+    background-size: 500%;
+    animation: fanimado 10s infinite;
+    opacity: 0.9;
+    color: rgb(197, 197, 189);
+    font-size:xx-large; 
+    width: 100%;
+    position: absolute;
+}
+
+.social-icons-container, .footer-menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.social-icon{
+    border: none;
+    width: 200px;
+    height: 200px;
+    border-radius: 50PX;
+    background-image: url(img/logo.png);
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+.social-icon:hover{
+  background-color: rgb(19, 19, 20);
+filter: invert(1);
+}
+
+.menu-item{
+  margin: 1rem 1.5rem;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.menu-item:hover{
+  opacity: 1;
+}
+
+.copyright{
+  color: rgb(74, 10, 94);
+  opacity: 0.5;
+  text-align: center;
+}
+ 
+img{
+    border: solid 3px rgb(74, 10, 94);
+}
+
+img {
+    transition: transform 0.5s ease; /* Hace la animación más suave */
+}
+
+img:hover {
+    transform: rotateY(180deg); /* Voltea la imagen al pasar el cursor */
+}

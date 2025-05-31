@@ -1,0 +1,41 @@
+body{
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/f2.jpg);
+}
+
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    align-items: center;
+    -webkit-text-stroke: 1px rgb(209, 52, 188);
+}
+
+
+img{
+    width: 500px;
+    height: 520px;
+}
+
+
+    img:hover{
+      border-radius:50%;
+      -webkit-border-radius:50%;
+      box-shadow: 0px 0px 15px 15px #0d9ae0;
+      -webkit-box-shadow: 0px 0px 15px 15px #ec1ea0;
+      transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      }
+
+      @keyframes rotate {from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}}
+@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}}
+img:hover{
+    -webkit-animation: 3s rotate linear infinite;
+    animation: 3s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
